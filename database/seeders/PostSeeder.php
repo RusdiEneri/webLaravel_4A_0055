@@ -1,0 +1,190 @@
+<?php
+
+namespace Database\Seeders;
+
+use Illuminate\Database\Seeder;
+use App\Models\Post;
+use Carbon\Carbon;
+
+class PostSeeder extends Seeder
+{
+    public function run(): void
+    {
+        $berita = [
+            [
+                'title' => 'Pemerintah Umumkan Kebijakan Baru untuk Sektor Digital',
+                'content' => "Jakarta - Pemerintah Indonesia mengumumkan serangkaian kebijakan baru yang bertujuan untuk mempercepat transformasi digital di tanah air.\n\nMenteri Komunikasi dan Informatika menyatakan bahwa program ini akan diluncurkan secara bertahap mulai bulan depan.\n\nSelain itu, pemerintah juga akan mengalokasikan anggaran sebesar Rp 5 triliun untuk pembangunan infrastruktur digital di daerah terpencil.",
+                'image' => 'https://picsum.photos/800/400?random=1',
+                'publisher' => 'Admin',
+                'published' => true,
+                'published_at' => Carbon::now()->subDays(1),
+                'category' => 'Politik',
+                'views' => 15420,
+            ],
+            [
+                'title' => 'IHSG Menguat 1,5% Didorong Saham Sektor Perbankan',
+                'content' => "Jakarta - Indeks Harga Saham Gabungan (IHSG) ditutup menguat 1,5% pada perdagangan hari ini.\n\nAnalis pasar modal menyebutkan bahwa optimisme investor terhadap sektor perbankan dipicu oleh laporan keuangan kuartal III yang menunjukkan pertumbuhan kredit yang solid.\n\nSektor lain yang juga menguat hari ini adalah sektor properti dan konstruksi.",
+                'image' => 'https://picsum.photos/800/400?random=2',
+                'publisher' => 'Editor',
+                'published' => true,
+                'published_at' => Carbon::now()->subDays(2),
+                'category' => 'Ekonomi',
+                'views' => 8750,
+            ],
+            [
+                'title' => 'Timnas Indonesia Lolos ke Piala Asia 2027',
+                'content' => "Dubai - Timnas Indonesia resmi memastikan diri lolos ke Piala Asia 2027 setelah mengalahkan Timnas Filipina dengan skor 3-1.\n\nPelatih Timnas menyatakan kebanggaannya terhadap performa anak asuhnya.\n\nGol kemenangan Indonesia dicetak oleh striker muda yang baru berusia 22 tahun.",
+                'image' => 'https://picsum.photos/800/400?random=3',
+                'publisher' => 'Reporter',
+                'published' => true,
+                'published_at' => Carbon::now()->subDays(3),
+                'category' => 'Olahraga',
+                'views' => 23100,
+            ],
+            [
+                'title' => 'Apple Luncurkan iPhone 16 dengan Fitur AI Canggih',
+                'content' => "Cupertino - Apple resmi meluncurkan seri iPhone 16 dengan berbagai fitur kecerdasan buatan (AI) yang lebih canggih.\n\nCEO Apple menjelaskan bahwa iPhone 16 dilengkapi dengan chip A18 Bionic yang memiliki kemampuan pemrosesan AI 40% lebih cepat.\n\nFitur unggulan lainnya termasuk kamera 108 MP dengan kemampuan zoom optik 10x.",
+                'image' => 'https://picsum.photos/800/400?random=4',
+                'publisher' => 'Jurnalis',
+                'published' => true,
+                'published_at' => Carbon::now()->subDays(4),
+                'category' => 'Teknologi',
+                'views' => 31200,
+            ],
+            [
+                'title' => 'Film Indonesia Raih Penghargaan di Festival Cannes',
+                'content' => "Cannes - Film Indonesia berjudul Senja di Nusantara berhasil meraih penghargaan Best Director di Festival Film Internasional Cannes 2026.\n\nSutradara film tersebut menyampaikan rasa haru dan bangganya saat menerima penghargaan.\n\nFilm yang bercerita tentang kehidupan masyarakat pesisir ini mendapat pujian dari para juri.",
+                'image' => 'https://picsum.photos/800/400?random=5',
+                'publisher' => 'Editor',
+                'published' => true,
+                'published_at' => Carbon::now()->subDays(5),
+                'category' => 'Hiburan',
+                'views' => 12800,
+            ],
+            [
+                'title' => 'Vaksin Baru Mampu Cegah 95% Varian COVID-19',
+                'content' => "Bandung - Tim peneliti dari Institut Teknologi Bandung (ITB) berhasil mengembangkan vaksin baru yang diklaim mampu mencegah 95% varian COVID-19.\n\nKetua tim peneliti menjelaskan bahwa vaksin ini menggunakan teknologi mRNA generasi terbaru.\n\nKementerian Kesehatan telah memberikan izin penggunaan darurat untuk vaksin ini.",
+                'image' => 'https://picsum.photos/800/400?random=6',
+                'publisher' => 'Jurnalis',
+                'published' => true,
+                'published_at' => Carbon::now()->subDays(6),
+                'category' => 'Kesehatan',
+                'views' => 18900,
+            ],
+            [
+                'title' => 'Kurikulum Merdeka Belajar Diperluas ke Seluruh Indonesia',
+                'content' => "Jakarta - Kementerian Pendidikan mengumumkan perluasan program Kurikulum Merdeka Belajar ke seluruh sekolah di Indonesia.\n\nMendikbudristek menjelaskan bahwa Kurikulum Merdeka memberikan fleksibilitas lebih besar kepada guru dan siswa.\n\nRespons dari para pendidik cukup positif.",
+                'image' => 'https://picsum.photos/800/400?random=7',
+                'publisher' => 'Reporter',
+                'published' => true,
+                'published_at' => Carbon::now()->subDays(7),
+                'category' => 'Pendidikan',
+                'views' => 9650,
+            ],
+            [
+                'title' => 'Harga Minyak Dunia Turun, Pertalite Diprediksi Stabil',
+                'content' => "Jakarta - Harga minyak mentah dunia mengalami penurunan signifikan dalam sepekan terakhir.\n\nDirektur Utama Pertamina menyatakan bahwa pihaknya akan menjaga stabilitas harga BBM di dalam negeri.\n\nPenurunan harga minyak dunia dipicu oleh melemahnya permintaan dari China.",
+                'image' => 'https://picsum.photos/800/400?random=8',
+                'publisher' => 'Admin',
+                'published' => true,
+                'published_at' => Carbon::now()->subDays(8),
+                'category' => 'Ekonomi',
+                'views' => 14300,
+            ],
+            [
+                'title' => 'Penemuan Spesies Baru Orangutan di Kalimantan',
+                'content' => "Palangka Raya - Tim peneliti berhasil menemukan spesies orangutan baru di pedalaman Kalimantan Tengah.\n\nSpesies baru yang diberi nama Pongo kalimantanensis ini memiliki karakteristik fisik yang berbeda.\n\nPopulasi spesies ini diperkirakan hanya sekitar 800 individu.",
+                'image' => 'https://picsum.photos/800/400?random=9',
+                'publisher' => 'Jurnalis',
+                'published' => true,
+                'published_at' => Carbon::now()->subDays(9),
+                'category' => 'Teknologi',
+                'views' => 7890,
+            ],
+            [
+                'title' => 'Resep Masakan Tradisional Indonesia Go Internasional',
+                'content' => "Surabaya - Seorang chef asal Surabaya berhasil mempopulerkan masakan tradisional Indonesia di kancah internasional.\n\nChef yang telah berkarier 15 tahun di luar negeri ini mengaku bangga bisa memperkenalkan kekayaan kuliner Indonesia.\n\nKeunikan rasa dan penggunaan rempah-rempah khas Indonesia menjadi daya tarik utama.",
+                'image' => 'https://picsum.photos/800/400?random=10',
+                'publisher' => 'Editor',
+                'published' => true,
+                'published_at' => Carbon::now()->subDays(10),
+                'category' => 'Hiburan',
+                'views' => 11200,
+            ],
+            [
+        'title' => 'Startup Indonesia Raih Pendanaan Seri B Senilai $50 Juta',
+        'content' => "Jakarta - Sebuah startup teknologi finansial (fintech) asal Indonesia berhasil meraih pendanaan Seri B senilai $50 juta dari investor global.\n\nCEO startup tersebut menyatakan bahwa dana ini akan digunakan untuk ekspansi ke pasar Asia Tenggara dan pengembangan produk baru.\n\nIni merupakan salah satu pendanaan terbesar untuk startup fintech Indonesia tahun ini.",
+        'image' => 'https://picsum.photos/800/400?random=11',
+        'publisher' => 'Reporter',
+        'published' => true,
+        'published_at' => now()->subDays(11),
+        'category' => 'Ekonomi',
+        'views' => 13500,
+    ],
+    [
+        'title' => 'Gempa Bumi 6.2 SR Guncang Maluku Utara, Tidak Berpotensi Tsunami',
+        'content' => "Ternate - Gempa bumi berkekuatan 6.2 skala richter mengguncang wilayah Maluku Utara pada Selasa pagi.\n\nBMKG menyatakan bahwa gempa ini tidak berpotensi tsunami dan tidak ada laporan kerusakan yang signifikan.\n\nWarga diimbau untuk tetap tenang dan waspada terhadap kemungkinan gempa susulan.",
+        'image' => 'https://picsum.photos/800/400?random=12',
+        'publisher' => 'Jurnalis',
+        'published' => true,
+        'published_at' => now()->subDays(12),
+        'category' => 'Politik',
+        'views' => 8900,
+    ],
+    [
+        'title' => 'Atlet Bulutangkis Indonesia Juara Turnamen All England 2026',
+        'content' => "Birmingham - Atlet bulutangkis Indonesia berhasil meraih gelar juara di turnamen bergengsi All England 2026.\n\nPemain tunggal putra Indonesia mengalahkan juara bertahan dalam pertandingan yang berlangsung dramatis selama 3 set.\n\nIni adalah gelar All England pertama bagi Indonesia dalam 5 tahun terakhir.",
+        'image' => 'https://picsum.photos/800/400?random=13',
+        'publisher' => 'Editor',
+        'published' => true,
+        'published_at' => now()->subDays(13),
+        'category' => 'Olahraga',
+        'views' => 28700,
+    ],
+    [
+        'title' => 'Google Luncurkan Fitur AI Baru untuk Pencarian yang Lebih Cerdas',
+        'content' => "Mountain View - Google mengumumkan peluncuran fitur kecerdasan buatan (AI) terbaru yang akan mengubah cara pengguna melakukan pencarian.\n\nFitur baru ini mampu memahami konteks pertanyaan dengan lebih baik dan memberikan jawaban yang lebih relevan.\n\nRollout akan dilakukan secara bertahap ke seluruh pengguna di seluruh dunia.",
+        'image' => 'https://picsum.photos/800/400?random=14',
+        'publisher' => 'Admin',
+        'published' => true,
+        'published_at' => now()->subDays(14),
+        'category' => 'Teknologi',
+        'views' => 19800,
+    ],
+    [
+        'title' => 'Konser Musik terbesar di Asia Digelar di Jakarta Convention Center',
+        'content' => "Jakarta - Jakarta Convention Center akan menjadi tuan rumah konser musik terbesar di Asia bulan depan.\n\nEvent ini akan menghadirkan 20 artis ternama dari berbagai negara Asia.\n\nTiket konser ini sudah terjual habis dalam waktu 2 jam setelah dibuka.",
+        'image' => 'https://picsum.photos/800/400?random=15',
+        'publisher' => 'Reporter',
+        'published' => true,
+        'published_at' => now()->subDays(15),
+        'category' => 'Hiburan',
+        'views' => 22100,
+    ],
+    [
+        'title' => 'Penelitian Terbaru: Kopi Dapat Menurunkan Risiko Diabetes Tipe 2',
+        'content' => "Surabaya - Penelitian yang dilakukan oleh tim dari Universitas Airlangga menemukan bahwa konsumsi kopi secara teratur dapat menurunkan risiko diabetes tipe 2.\n\nStudi yang melibatkan 5000 partisipan ini menunjukkan penurunan risiko hingga 30% pada mereka yang minum 2-3 cangkir kopi per hari.\n\nNamun, para peneliti menekankan pentingnya konsumsi tanpa gula berlebih.",
+        'image' => 'https://picsum.photos/800/400?random=16',
+        'publisher' => 'Jurnalis',
+        'published' => true,
+        'published_at' => now()->subDays(16),
+        'category' => 'Kesehatan',
+        'views' => 15600,
+    ],
+    [
+        'title' => 'Universitas Indonesia Masuk Peringkat 100 Besar Dunia',
+        'content' => "Depok - Universitas Indonesia (UI) berhasil masuk dalam peringkat 100 besar universitas terbaik dunia versi QS World University Rankings 2026.\n\nPrestasi ini merupakan hasil dari peningkatan kualitas penelitian dan pengajaran dalam 5 tahun terakhir.\n\nRektor UI menyatakan komitmen untuk terus meningkatkan kualitas pendidikan di Indonesia.",
+        'image' => 'https://picsum.photos/800/400?random=17',
+        'publisher' => 'Editor',
+        'published' => true,
+        'published_at' => now()->subDays(17),
+        'category' => 'Pendidikan',
+        'views' => 11400,
+    ],
+        ];
+
+        foreach ($berita as $item) {
+            Post::create($item);
+        }
+    }
+}
