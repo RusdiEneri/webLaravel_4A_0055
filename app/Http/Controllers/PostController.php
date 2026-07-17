@@ -7,37 +7,21 @@ use Illuminate\Http\Request;
 
 class PostController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
-    // public function index()
-    // {
-    //     // return view('index');
-    //     // Ambil semua post yang sudah published, urutkan dari yang terbaru
-    //     $posts = Post::where('published', true)
-    //         ->orderBy('published_at', 'desc')
-    //         ->orderBy('created_at', 'desc')
-    //         ->paginate(9);
-
-    //     return view('posts.index', compact('posts'));
-    // }
     public function index()
-{
-    $posts = Post::where('published', true)
-        ->orderBy('published_at', 'desc')
-        ->paginate(9);
+    {
+        $posts = Post::where('published', true)
+            ->orderBy('published_at', 'desc')
+            ->paginate(9);
 
-    return view('posts.index', compact('posts'));
-}
+        return view('posts.index', compact('posts'));
+    }
 
     public function show($id)
     {
         $post = Post::findOrFail($id);
         
-        // Increment view counter
         $post->increment('views');
         
-        // Ambil 3 related posts (same category)
         $relatedPosts = Post::where('category', $post->category)
             ->where('id', '!=', $post->id)
             ->where('published', true)
@@ -47,51 +31,70 @@ class PostController extends Controller
         return view('posts.show', compact('post', 'relatedPosts'));
     }
 
-    /**
-     * Show the form for creating a new resource.
-     */
     public function create()
     {
-        //
+        $categories = ['Politik', 'Ekonomi', 'Olahraga', 'Teknologi', 'Hiburan', 'Kesehatan', 'Pendidikan'];
+        return view('posts.create', compact('categories'));
     }
 
-    /**
-     * Store a newly created resource in storage.
-     */
     public function store(Request $request)
     {
-        //
+        $validated = $request->validate([
+            'title' => 'required|string|max:255',
+            'content' => 'required|string',
+            'image' => 'nullable|string|url',
+            'publisher' => 'nullable|string|max:255',
+            'category' => 'nullable|string|max:255',
+        ]);
+
+        $validated['published'] = $request->has('published');
+        if ($validated['published'] && !isset($validated['published_at'])) {
+            $validated['published_at'] = now();
+        }
+        if (!isset($validated['publisher'])) {
+            $validated['publisher'] = 'Admin';
+        }
+        $validated['views'] = 0;
+
+        Post::create($validated);
+
+        return redirect()->route('posts.index')->with('success', 'Berita berhasil ditambahkan!');
     }
 
-    /**
-     * Display the specified resource.
-     */
-    // public function show(string $id)
-    // {
-    //     //
-    // }
-
-    /**
-     * Show the form for editing the specified resource.
-     */
-    public function edit(string $id)
+    public function edit($id)
     {
-        //
+        $post = Post::findOrFail($id);
+        $categories = ['Politik', 'Ekonomi', 'Olahraga', 'Teknologi', 'Hiburan', 'Kesehatan', 'Pendidikan'];
+        return view('posts.edit', compact('post', 'categories'));
     }
 
-    /**
-     * Update the specified resource in storage.
-     */
-    public function update(Request $request, string $id)
+    public function update(Request $request, $id)
     {
-        //
+        $post = Post::findOrFail($id);
+
+        $validated = $request->validate([
+            'title' => 'required|string|max:255',
+            'content' => 'required|string',
+            'image' => 'nullable|string|url',
+            'publisher' => 'nullable|string|max:255',
+            'category' => 'nullable|string|max:255',
+        ]);
+
+        $validated['published'] = $request->has('published');
+        if ($validated['published'] && !$post->published_at) {
+            $validated['published_at'] = now();
+        }
+
+        $post->update($validated);
+
+        return redirect()->route('posts.index')->with('success', 'Berita berhasil diperbarui!');
     }
 
-    /**
-     * Remove the specified resource from storage.
-     */
-    public function destroy(string $id)
+    public function destroy($id)
     {
-        //
+        $post = Post::findOrFail($id);
+        $post->delete();
+
+        return redirect()->route('posts.index')->with('success', 'Berita berhasil dihapus!');
     }
 }

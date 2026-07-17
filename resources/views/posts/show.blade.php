@@ -174,6 +174,18 @@
             <a href="/berita" class="back-button">
                 <i class="bi bi-arrow-left"></i> Kembali ke Beranda
             </a>
+            <div class="mb-3">
+                <a href="{{ route('posts.edit', $post->id) }}" class="btn btn-light me-2">
+                    <i class="bi bi-pencil"></i> Edit Berita
+                </a>
+                <form action="{{ route('posts.destroy', $post->id) }}" method="POST" class="d-inline">
+                    @csrf
+                    @method('DELETE')
+                    <button type="submit" class="btn btn-light" onclick="return confirm('Apakah Anda yakin ingin menghapus berita ini?')">
+                        <i class="bi bi-trash"></i> Hapus Berita
+                    </button>
+                </form>
+            </div>
             <span class="badge bg-danger category-badge mb-3">{{ $post->category }}</span>
             <h1 class="article-title">{{ $post->title }}</h1>
             <div class="article-meta">

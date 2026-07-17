@@ -610,6 +610,19 @@
 
     <!-- Main Content -->
     <div class="container mt-4">
+        @if(session('success'))
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                {{ session('success') }}
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        @endif
+        
+        <div class="d-flex justify-content-end mb-3">
+            <a href="{{ route('posts.create') }}" class="btn btn-danger">
+                <i class="bi bi-plus-circle"></i> Tambah Berita
+            </a>
+        </div>
+        
         @if($posts->count() > 0)
             <!-- Main Headline (Berita Utama) -->
             <div class="main-headline">
@@ -631,6 +644,18 @@
                         <span><i class="bi bi-calendar"></i> {{ $posts->first()->published_at->format('d F Y') }}</span>
                         <span><i class="bi bi-clock"></i> {{ $posts->first()->published_at->format('H:i') }} WIB</span>
                         <span><i class="bi bi-eye"></i> {{ number_format($posts->first()->views) }} Views</span>
+                    </div>
+                    <div class="mt-3">
+                        <a href="{{ route('posts.edit', $posts->first()->id) }}" class="btn btn-sm btn-primary me-2">
+                            <i class="bi bi-pencil"></i> Edit
+                        </a>
+                        <form action="{{ route('posts.destroy', $posts->first()->id) }}" method="POST" class="d-inline">
+                            @csrf
+                            @method('DELETE')
+                            <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Apakah Anda yakin ingin menghapus berita ini?')">
+                                <i class="bi bi-trash"></i> Hapus
+                            </button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -660,6 +685,18 @@
                                         <div class="news-card-meta">
                                             <span><i class="bi bi-person"></i> {{ $post->publisher }}</span>
                                             <span><i class="bi bi-clock"></i> {{ $post->published_at->diffForHumans() }}</span>
+                                        </div>
+                                        <div class="mt-3">
+                                            <a href="{{ route('posts.edit', $post->id) }}" class="btn btn-sm btn-primary me-2">
+                                                <i class="bi bi-pencil"></i> Edit
+                                            </a>
+                                            <form action="{{ route('posts.destroy', $post->id) }}" method="POST" class="d-inline">
+                                                @csrf
+                                                @method('DELETE')
+                                                <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Apakah Anda yakin ingin menghapus berita ini?')">
+                                                    <i class="bi bi-trash"></i> Hapus
+                                                </button>
+                                            </form>
                                         </div>
                                     </div>
                                 </div>
