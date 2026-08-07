@@ -69,10 +69,10 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
   <br/>
   <img src="https://img.shields.io/badge/✦%20Quote%20of%20the%20Day%20✦-7c3aed?style=flat-square&labelColor=1a1a2e" />
   <br/><br/>
-  <i>❝ Jangan menangis Yamato. Jangan menangis demi aku. Kau tak perlu mengkhawatirkanku. Tertawalah...
-Yang paling tidak kuinginkan adalah saat melihatmu menangis. ❞</i>
+  <i>❝ Bukankah kita teman?
+Entah mau ke toilet atau kemana pun, kita akan pergi bersama! ❞</i>
   <br/>
-  <sub>— <b>Takeo Gouda</b> · <i>Ore Monogatari!!</i></sub>
+  <sub>— <b>Megumin</b> · <i>Kono Subarashii Sekai ni Shukufuku wo!</i></sub>
   <br/><br/>
   <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6&height=2&width=60%" />
 </div>
