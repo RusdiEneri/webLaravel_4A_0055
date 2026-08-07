@@ -69,10 +69,9 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
   <br/>
   <img src="https://img.shields.io/badge/✦%20Quote%20of%20the%20Day%20✦-7c3aed?style=flat-square&labelColor=1a1a2e" />
   <br/><br/>
-  <i>❝ Kau pikir berapa banyak kekalahan yang sudah aku dapatkan sampai detik ini?
-Walau bukan sesuatu yang bisa dibanggakan, tapi aku sudah kalah ratusan, bahkan ribuan kali. Meskipun begitu, aku tidak pernah depresi, tidak pernah sepertimu sekarang!. (Karena) aku selalu yakin pada akhirnya aku akan menang. ❞</i>
+  <i>❝ Setiap orang punya hal yang tak ingin diketahui siapapun, hal yang lebih baik tidak diketahui, dan ada pula hal pada diri sendiri yang tidak ingin diingat. ❞</i>
   <br/>
-  <sub>— <b>Togame</b> · <i>Katanagatari</i></sub>
+  <sub>— <b>Himeko Inaba</b> · <i>Kokoro Connect</i></sub>
   <br/><br/>
   <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6&height=2&width=60%" />
 </div>
