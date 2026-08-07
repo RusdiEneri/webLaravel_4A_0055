@@ -69,10 +69,9 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
   <br/>
   <img src="https://img.shields.io/badge/✦%20Quote%20of%20the%20Day%20✦-7c3aed?style=flat-square&labelColor=1a1a2e" />
   <br/><br/>
-  <i>❝ Jangan ditunda lagi, lakukan sekarang.
-Seorang pria tidak akan pernah mencari-cari alasan. ❞</i>
+  <i>❝ Meskipun aku baru pertama kali melihatmu di konser, aku tetap akan menjadi penggemarmu. Aku selalu melihatmu, aku juga sudah banyak mengirimimu surat penggemar. Meski dalam keadaan sulit sekalipun, atau dalam keadaan sedih sekalipun, aku menyemangati diriku dengan mendengarkan lagu-lagumu. Terimakasih selalu menjadi teman bagiku. ❞</i>
   <br/>
-  <sub>— <b>Mao Mizusawa</b> · <i>Kimikiss Pure Rouge</i></sub>
+  <sub>— <b>Mayu Arita</b> · <i>Death Parade</i></sub>
   <br/><br/>
   <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6&height=2&width=60%" />
 </div>
