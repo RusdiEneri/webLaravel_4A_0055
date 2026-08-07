@@ -69,9 +69,9 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
   <br/>
   <img src="https://img.shields.io/badge/✦%20Quote%20of%20the%20Day%20✦-7c3aed?style=flat-square&labelColor=1a1a2e" />
   <br/><br/>
-  <i>❝ Kakak itu memang hebat. Aku takkan pernah menandinginya. ❞</i>
+  <i>❝ Kenapa kita harus bekerja? Kenapa kita harus membayar untuk makan? Bukankah kita bisa saling berbagi? Yang kaya menjadi gemuk. Sementara yang miskin akan mati. Di dunia sampah seperti ini kebebasan macam apa yang didapat? Kita semua adalah budak dari pekerjaan. Apa kerja itu menyenangkan? ❞</i>
   <br/>
-  <sub>— <b>Rem</b> · <i>Re:Zero kara Hajimeru Isekai Seikatsu</i></sub>
+  <sub>— <b>Hammerhead</b> · <i>One Punch Man</i></sub>
   <br/><br/>
   <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6&height=2&width=60%" />
 </div>
