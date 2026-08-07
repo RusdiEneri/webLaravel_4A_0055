@@ -69,14 +69,9 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
   <br/>
   <img src="https://img.shields.io/badge/✦%20Quote%20of%20the%20Day%20✦-7c3aed?style=flat-square&labelColor=1a1a2e" />
   <br/><br/>
-  <i>❝ Apa kalian menyukai sekolah?
-Aku sangat menyukainya. Kalian mungkin menganggapnya aneh, tapi sekolah adalah tempat yang hebat.Ruang fisika punya banyak peralatan yang aneh...
-Ruang musik punya instrumen-instrumen yang indah dan potret yang menyeramkan.
-Ruang penyiaran adalah panggung sekolah, segalanya ada layaknya sebuah negara. Tidak ada bangunan yang aneh selain ini. Aku menyukainya...Aku benci belajar, tapi aku tidak benci guru. Saat aku lupa PR-ku, mereka mengajarkan cara menyelesaikannya. Saat tertidur di kelas, aku dimarahi.Aku berteman baik dengan teman sekelas dan (terkadang) bertengkar.
-Semuanya bersama-sama. Terkadang juga sendirian.
-Ada kalanya menyenangkan, ada kalanya sedih, ada banyak hal (yang kurasakan), itulah mengapa aku sangat menyukai sekolah ini. ❞</i>
+  <i>❝ Orang-orang selalu ingin mengetahui kebenaran, atau lebih tepatnya mereka ingin mempercayai apa yang diketahuinya itu benar. Jadi, kebenaran sebenarnya bukanlah hal yang utama. ❞</i>
   <br/>
-  <sub>— <b>Yuki Takeya</b> · <i>Gakkou Gurashi!</i></sub>
+  <sub>— <b>Deishuu Kaiki</b> · <i>Monogatari Series: Second Season</i></sub>
   <br/><br/>
   <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6&height=2&width=60%" />
 </div>
