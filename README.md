@@ -69,9 +69,9 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
   <br/>
   <img src="https://img.shields.io/badge/✦%20Quote%20of%20the%20Day%20✦-7c3aed?style=flat-square&labelColor=1a1a2e" />
   <br/><br/>
-  <i>❝ Orang-orang selalu ingin mengetahui kebenaran, atau lebih tepatnya mereka ingin mempercayai apa yang diketahuinya itu benar. Jadi, kebenaran sebenarnya bukanlah hal yang utama. ❞</i>
+  <i>❝ Tapi, takkan ada permulaan jika hanya duduk dan menonton. Aku tak bisa menjelaskannya. Tapi,  inilah kesempatanku satu-satunya. Jadi, kami ingin bersinar! ❞</i>
   <br/>
-  <sub>— <b>Deishuu Kaiki</b> · <i>Monogatari Series: Second Season</i></sub>
+  <sub>— <b>Chika Takami</b> · <i>Love Live! Sunshine!!</i></sub>
   <br/><br/>
   <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6&height=2&width=60%" />
 </div>
