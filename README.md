@@ -69,9 +69,11 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
   <br/>
   <img src="https://img.shields.io/badge/✦%20Quote%20of%20the%20Day%20✦-7c3aed?style=flat-square&labelColor=1a1a2e" />
   <br/><br/>
-  <i>❝ Aku adalah pedangmu, tidak peduli sekeras apapun rintangannya aku akan selalu mengikutimu. ❞</i>
+  <i>❝ Dalam kehidupan, selalu ada tiga pertanyaan.
+Aku ini apa? (Aku) datang dari mana? dan (Aku) akan pergi ke mana?
+Yang bisa kupikirkan hanya itu. Sebenarnya, hal yang (hanya harus) dipikirkan itu adalah "kebebasan". Akan tetapi, entah sejak kapan sebuah kekuatan aneh mengendalikanku, dan sedikit demi sedikit merenggut kebebasanku. Padahal saat masih kecil aku sudah memikirkan banyak hal tentang kebebasan, tapi pasti manusia sudah diprogram untuk menjadi bodoh sebelum pintar. ❞</i>
   <br/>
-  <sub>— <b>Raphtalia</b> · <i>Tate no Yuusha no Nariagari</i></sub>
+  <sub>— <b>Souhei Saikawa</b> · <i>Subete ga F ni Naru</i></sub>
   <br/><br/>
   <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6&height=2&width=60%" />
 </div>
