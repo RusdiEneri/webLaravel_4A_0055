@@ -69,9 +69,13 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
   <br/>
   <img src="https://img.shields.io/badge/✦%20Quote%20of%20the%20Day%20✦-7c3aed?style=flat-square&labelColor=1a1a2e" />
   <br/><br/>
-  <i>❝ Jika kau tidak bisa jadi obat, jadilah racun. Jika tak begitu, kau hanya akan jadi air biasa. ❞</i>
+  <i>❝ Datang terlambat sebenarnya bukan hal yang buruk.
+Polisi datang setelah ada kejadian yang terjadi.
+Dan pahlawan selalu datang terlambat.
+Tapi, apakah ada yang menyalahkan mereka?
+Jadi keterlambatan adalah keadilan. ❞</i>
   <br/>
-  <sub>— <b>Tooe Kanbaru</b> · <i>Zoku Owarimonogatari</i></sub>
+  <sub>— <b>Hachiman Hikigaya</b> · <i>Yahari Ore no Seishun Love Comedy wa Machigatteiru</i></sub>
   <br/><br/>
   <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6&height=2&width=60%" />
 </div>
