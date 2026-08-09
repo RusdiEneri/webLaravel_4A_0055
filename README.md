@@ -69,9 +69,9 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
   <br/>
   <img src="https://img.shields.io/badge/✦%20Quote%20of%20the%20Day%20✦-7c3aed?style=flat-square&labelColor=1a1a2e" />
   <br/><br/>
-  <i>❝ Cinta adalah alat untuk menguasai. ❞</i>
+  <i>❝ Terkadang orang jahat berbuat baik dan orang baik berbuat jahat. Itulah manusia, itulah kita. ❞</i>
   <br/>
-  <sub>— <b>Quinella</b> · <i>Sword Art Online: Alicization</i></sub>
+  <sub>— <b>Rider</b> · <i>Fate/Grand Order: Zettai Majuu Sensen Babylonia - Initium Iter</i></sub>
   <br/><br/>
   <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6&height=2&width=60%" />
 </div>
