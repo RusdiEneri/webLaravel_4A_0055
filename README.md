@@ -69,9 +69,9 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
   <br/>
   <img src="https://img.shields.io/badge/✦%20Quote%20of%20the%20Day%20✦-7c3aed?style=flat-square&labelColor=1a1a2e" />
   <br/><br/>
-  <i>❝ Satu nyawa dapat menyelamatkan nyawa lain. ❞</i>
+  <i>❝ Kebahagiaan adalah sesuatu yang hanya dapat dirasakan oleh diri sendiri dan tidak dapat dirasakan oleh orang lain. Memilihkan dan memutuskan kebahagiaan seseorang adalah tindakan egois. ❞</i>
   <br/>
-  <sub>— <b>Kuro no Saber</b> · <i>Fate/Apocrypha</i></sub>
+  <sub>— <b>Rhantolk Ytri Historia</b> · <i>Shuumatsu Nani Shitemasu ka? Isogashii desu ka? Sukutte Moratte Ii desu ka?</i></sub>
   <br/><br/>
   <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6&height=2&width=60%" />
 </div>
